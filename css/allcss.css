@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --playfair: "Playfair Display", serif;
+  --quicksand: "Quicksand", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--playfair);
+}
+
+.top {
+  background-color: blue;
+  height: 1.4rem;
+}
+.top i {
+  line-height: 1.4rem;
+}
+.top a {
+  text-decoration: none;
+
+  padding: 0 10px;
+  font-size: 17px;
+  line-height: 1.4rem;
+  color: rgb(130, 238, 238);
+}
+ul {
+  list-style: none;
+}
+.nav__item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.top a:hover {
+  color: #fff;
+  background-color: darkblue;
+}
+.lang__border {
+  border-right: 2px solid black;
+}
+.navigation {
+  display: flex;
+  justify-content: right;
+}
+
+.home__header__bg {
+  background-image: url(https://wallpaperbat.com/img/560381-student-desktop-wallpaper-top-free-student-desktop-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.certificate__img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.certificate__img,
+.certificate__shadow {
+  transition: all 0.5s ease;
+}
+.certificate__img:hover {
+  transform: scale(1.1);
+}
+
+.certificate__shadow:hover {
+  box-shadow: 5px 0px 5px green, -0px 5px 5px yellow, 0px -5px 5px blue,
+    -5px -0px 5px red;
+}
+.last {
+  text-decoration: none;
+}
+.news__card {
+  text-decoration: none;
+}
+.contact__bg {
+  background-image: url(https://w.forfun.com/fetch/0d/0dacb251442cd8556fb3ceda8b189680.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.about__bg {
+  background-image: url(https://www.shutterstock.com/image-photo/london-united-kingdom-july-27-600w-186641729.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.certificate__bg {
+  background-image: url(https://wallpaperbat.com/img/560381-student-desktop-wallpaper-top-free-student-desktop-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.holiday__bg {
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/holiday_background_310879.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.news__bg {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/216/831/original/3d-world-news-background-loop-free-video.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.home__big__head2 {
+  background-image: url(https://wallpaper.dog/large/20529679.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.home__big__head3 {
+  background-image: url(https://c1.wallpaperflare.com/preview/294/960/948/accomplishment-ceremony-education-graduation.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.dark-overly {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+footer {
+  background: var(--dark);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.social-link a {
+  border: 2px solid #fff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+.social-link a:hover {
+  background-color: #fff;
+  color: var(--dark);
+}
+.nav__link {
+  font-size: 120%;
+}
+.nav__logo {
+  font-size: 1.7rem;
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+footer span {
+  margin-top: 1rem;
+  display: block;
+  font-family: var(--playfair);
+  letter-spacing: 2px;
+}
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url(https://wallpapers.com/images/hd/folding-math-artwork-8baeam8ohchpp53f.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(https://wallpaperbat.com/img/151419-biology-ultra-hd-desktop-background-wallpaper-for-4k-uhd-tv.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(https://wallpaperbat.com/img/360424-history-wallpaper.jpg);
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url(https://wallpapercave.com/wp/wp3847326.jpg);
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.collapsible {
+  max-width: 450px;
+  overflow: hidden;
+  font-weight: 500;
+}
+.collapsible input {
+  display: none;
+}
+.collapsible label {
+  position: relative;
+  font-weight: 600;
+  background: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+  color: #1c1c6b;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.collapsible label::after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.reshot.com/preview-assets/icons/YAB8GEM7SD/right-arrow-button-YAB8GEM7SD-7165c.svg)
+    no-repeat 0 0;
+  transition: all 0.3s ease;
+}
+.collapsible input:checked + label:after {
+  transform: rotate(90deg);
+}
+.collapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100px;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.collapsible input:checked ~ .collapsible-text {
+  max-height: 300px;
+  padding-bottom: 25px;
+  background: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+  opacity: 1;
+  top: 0;
+}
+.collapsible-text h2 {
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #1c1c6b;
+}
+.collapsible-text p {
+  padding: 0 15px;
+}
+.holiday__img__style {
+  height: 350px;
+  width: 300px;
+  margin: 1rem;
+}
+.home__header__2,
+.home__header__3 {
+  line-height: 100px;
+}
+.home__header {
+  line-height: 25px;
+}
+.map__header,
+.map__Iframe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.map {
+  width: 400px;
+  height: 300px;
+}
+
+.news__img {
+  width: 287px;
+  height: 200px;
+  object-fit: cover;
+}
+.news__card__shadow:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 0px 5px green, -0px 5px 5px yellow, 0px -5px 5px blue,
+    -5px -0px 5px red;
+}
+
+.news__btn:active {
+  transform: scale(1.2);
+}
+.news__card__shadow {
+  transition: all 0.5s ease;
+}
+.conatiner {
+  margin-top: 4rem;
+  text-align: center;
+  color: #fff;
+}
+.game {
+  position: fixed;
+  bottom: 40%;
+  right: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
